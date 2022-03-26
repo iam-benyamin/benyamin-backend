@@ -2,7 +2,7 @@ from django.db import models
 
 
 def path_to_save(instance, filename):
-    return f"/media/works/{filename}"
+    return f"media/works/{filename}"
 
 
 class Work(models.Model):
