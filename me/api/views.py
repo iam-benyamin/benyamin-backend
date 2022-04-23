@@ -10,9 +10,9 @@ class TagViewSet(viewsets.ModelViewSet):
 
 class AboutViewSet(viewsets.ModelViewSet):
     queryset = About.objects.all()
-    serializer_class = TagSerializer
+    serializer_class = AboutSerializer
 
 
 class WorkViewSet(viewsets.ModelViewSet):
     queryset = Work.objects.all()
-    serializer_class = TagSerializer
+    serializer_class = WorkSerializer
